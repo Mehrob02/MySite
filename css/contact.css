@@ -1,0 +1,106 @@
+#input,#name{
+    outline: none !important;
+}
+body{
+    background-image: url("../img/image.jpg");
+    background-repeat: no-repeat;
+    background-color: white;
+    background-size:100% auto;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+ 
+}
+nav{
+    height: 478px !important;
+    padding: 9em;
+    
+}
+#ms{
+    right: 0 !important;
+    bottom: 0 !important;
+    position: fixed;
+    padding: 10px;
+}
+#input1:nth-child(1){
+    opacity: 0 !important;
+    transform: translate(-120%,0%) !important;
+    transition: all 1s ease 0s !important;
+}
+#input1:nth-child(2){
+    opacity: 0 !important;
+    transform: translate(-120%,0%) !important;
+    transition: all 1s ease 0.15s !important;
+}
+#input1:nth-child(3){
+    opacity: 0 !important;
+    transform: translate(-120%,0%) !important;
+    transition: all 1s ease 0.25s !important;
+}
+#input1:nth-child(4){
+    opacity: 0 !important;
+    transform: translate(-120%,0%) !important;
+    transition: all 1s ease 0.35s !important;
+}
+#input1:nth-child(5){
+    opacity: 0 !important;
+    transform: translate(-120%,0%) !important;
+    transition: all 1s ease 0.45s !important;
+}
+#input1:nth-child(1)._active,#input1:nth-child(2)._active,#input1:nth-child(3)._active,#input1:nth-child(4)._active,#input1:nth-child(5)._active{
+    opacity: 1 !important;
+    transform: translate(0%,0%) !important;
+}
+.logo{
+    color: #0ac775 !important;
+    cursor: pointer !important;
+}
+.header{
+    height: 120px;
+    opacity: 0.9;
+}
+.tch{
+    opacity: 0 !important;
+    transition: all 1s ease 0s;
+}
+.tch._active{
+    opacity: 1 !important;
+}
+header
+{
+    display: flex !important;
+    background-color: black !important;
+ top: 0;
+}
+
+.hover:hover{
+    color: #0ac775 !important;
+    cursor: pointer !important;
+}
+.centered {
+    text-align: center;
+    transform: translate(0%, -100%);
+    opacity: 0 !important;
+    transition: all 1s ease 0s;
+}
+.centered._active{
+    opacity: 1 !important;
+    transform: translate(0%, 0%) !important;
+}
+.font{
+    font-size: 120px !important;
+}
+.img{
+    margin-top: -9%;
+}
+.ins:hover{
+    color: royalblue !important;
+}
+.tel:hover{
+    color: dodgerblue !important;
+}
+.tw:hover{
+    color: skyblue !important;
+}
+.you:hover{
+    color: red !important;
+}

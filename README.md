@@ -1,4 +1,3 @@
-# MySite
 package com.company;
 
 public class Ex {
@@ -62,16 +61,39 @@ int x =2;
 */
         //Exercise 6
         /*
-
-         */
+int x=3;
+if (x>2){
+    System.out.print("a");
+}
+        while (x>0) {
+            if(x ==2){
+            System.out.print("b c");
+        }
+            x = x - 1;
+            System.out.print("-");
+            if (x == 1) {
+                System.out.print("d");
+                x=x-1;
+        }}*/
         //Exercise 7
         /*
-
+int x = 1;
+while ( x < 10 ) {
+if ( x > 3) {
+System.out.println("большой икс");}}
+int x = 5;
+while ( x > 1 ) {
+x = x - 1;
+if ( x < 3) {
+System.out.println("маленький икс");}}
+int x = 5;
+while ( x > 1 ) {
+x = x - 1;
+if ( x < 3) {
+System.out.println("маленький икс");}}
          */
         //Exercise 8
-        /*
 
-         */
         //Exercise 9
         /*
 int x = 0;
